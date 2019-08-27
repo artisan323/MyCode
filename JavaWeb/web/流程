@@ -1,0 +1,63 @@
+1. 导入相关jar包
+
+2. 创建实体类 例如Person
+3. 创建数据库连接的xml
+
+        <?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE configuration
+                PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+                "http://mybatis.org/dtd/mybatis-3-config.dtd">
+        <configuration>
+            <environments default="development">
+                <environment id="development">
+                    <transactionManager type="JDBC"></transactionManager>
+                    <dataSource type="PooLED">
+                        <property name="driver" value="com.mysql.jdbc.Driver" />
+                        <property name="url" value="jdbc:mysql://localhost:3306/mybatis"/>
+                        <property name="username" value="root"/>
+                        <property name="password" value="root"/>
+                    </dataSource>
+                </environment>
+            </environments>
+            <mappers>
+                <mapper resource="com.smartisan.mapper.PersonMapper.xml"/>
+            </mappers>
+        </configuration>
+4. 创建实体类相关的查询xml文件 如PersonMapper.xml
+   里面编写sql语句代码
+
+       <?xml version="1.0" encoding="UTF-8"?>
+
+       <!DOCTYPE mapper
+               PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+               "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+       <mapper namespace="com.smartisan.mapper.PersonMapper">
+           <select id="selall" resultType="com.smartisan.pojo.Person">
+               select * from user
+           </select>
+
+       </mapper>
+
+5. 创建service服务
+
+   public List<Person> show() throws IOException {
+           InputStream is = Resources.getResourceAsStream("mybatis.xml");
+           SqlSessionFactory factory =  new SqlSessionFactoryBuilder().build(is);
+           SqlSession session = factory.openSession();
+           List<Person> list = session.selectList("com.smartisan.mapper.PersonMapper.selall");
+           session.close();
+           return list;
+       }
+
+6. 获取结果
+
+        public static void main(String[] args) {
+                PersonService personService = new PersonServiceImpl();
+                try {
+                    List<Person> list =  personService.show();
+                    System.out.println(list);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }

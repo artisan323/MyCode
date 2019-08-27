@@ -1,0 +1,15 @@
+1. 导入相关jar包
+2. 创建实体类 例如Person
+3. 创建数据库连接的xml
+4. 创建实体类相关的查询xml文件 如PersonMapper.xml
+   里面编写sql语句代码
+5. 创建service服务
+   public List<Person> show() throws IOException {
+           InputStream is = Resources.getResourceAsStream("mybatis.xml");
+           SqlSessionFactory factory =  new SqlSessionFactoryBuilder().build(is);
+           SqlSession session = factory.openSession();
+           List<Person> list = session.selectList("com.smartisan.mapper.PersonMapper.selall");
+           session.close();
+           return list;
+       }
+6. 获取结果

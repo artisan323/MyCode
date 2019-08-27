@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>成功</h2>
+    <div th:text="${hello}"></div>
+    <hr />
+
+    <!--带转义-->
+    <div th:utext="${hello}"></div>
+    <div th:text="${hello}"></div>
+    <hr />
+
+    <!--循环三个h4-->
+    <h4 th:text="${user}" th:each="user:${users}"></h4>
+    <hr />
+
+    <h4>
+        <!--循环三个span-->
+        <span th:each="user:${users}">[[${user}]]</span>
+    </h4>
+</body>
+</html>

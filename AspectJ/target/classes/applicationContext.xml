@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop
+		http://www.springframework.org/schema/aop/spring-aop-4.3.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--&lt;!&ndash;配置通知类&ndash;&gt;-->
+    <!--<bean id="before" class="com.sp.advice.BeforeAdvice"></bean>-->
+    <!--<bean id="afterRet" class="com.sp.advice.AfterRetAdvice"></bean>-->
+    <!--<bean id="mythrow" class="com.sp.advice.Throwadvice"></bean>-->
+
+
+    <!--配置业务类-->
+    <bean id="service" class="com.sp.service.service"></bean>
+
+    <!--<aop:config>-->
+        <!--<aop:pointcut expression="execution(* com.sp.service.service.demo())" id="mypoint"/>-->
+        <!--<aop:advisor advice-ref="before" pointcut-ref="mypoint"/>-->
+        <!--<aop:advisor advice-ref="afterRet" pointcut-ref="mypoint"/>-->
+    <!--</aop:config>-->
+
+    <!--&lt;!&ndash; 配置异常处理 &ndash;&gt;-->
+    <!--<aop:config>-->
+        <!--<aop:aspect ref="mythrow">-->
+            <!--<aop:pointcut expression="execution(* com.sp.service.service.demo())" id="mypoint"/>-->
+            <!--<aop:after-throwing method="mythrow" pointcut-ref="mypoint" throwing="e"/>-->
+        <!--</aop:aspect>-->
+    <!--</aop:config>-->
+
+    <!--定义切面-->
+    <bean id="myAspect" class="com.sp.advice.MyAspectj"></bean>
+    <!--配置切面-->
+    <!--<aop:config>-->
+        <!--<aop:aspect ref="myAspect">-->
+            <!--<aop:pointcut id="mypoint" expression="execution(* com.sp.service.service.demo())" />-->
+            <!--<aop:before method="before" pointcut-ref="mypoint"/>-->
+            <!--<aop:after-returning method="afterReturning" pointcut-ref="mypoint"/>-->
+            <!--<aop:around method="around" pointcut-ref="mypoint"/>-->
+            <!--<aop:after-throwing method="except" pointcut-ref="mypoint"/>-->
+            <!--<aop:after method="after" pointcut-ref="mypoint"/>-->
+        <!--</aop:aspect>-->
+    <!--</aop:config>-->
+
+
+    <!--配置注解完成的类-->
+    <bean id="myAspectj2" class="com.sp.advice.MyAspectj2"></bean>
+    <!--扫描包，是注解生效-->
+    <context:component-scan base-package="com.sp.advice"/>
+    <context:component-scan base-package="com.sp.service"/>
+    <!--启动注解aspectj支持-->
+    <aop:aspectj-autoproxy />
+</beans>

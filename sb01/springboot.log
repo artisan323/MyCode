@@ -1,0 +1,25 @@
+2019-05-29 21:30:47.801  INFO 2071 --- [main] com.sb.Sb01ApplicationTests              : Starting Sb01ApplicationTests on wannengiandeMBP with PID 2071 (started by wannengqingnian in /Users/wannengqingnian/MyCode/sb01)
+2019-05-29 21:30:47.802 DEBUG 2071 --- [main] com.sb.Sb01ApplicationTests              : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 21:30:47.803  INFO 2071 --- [main] com.sb.Sb01ApplicationTests              : No active profile set, falling back to default profiles: default
+2019-05-29 21:30:55.014  INFO 2074 --- [main] com.sb.Sb01ApplicationTests              : Starting Sb01ApplicationTests on wannengiandeMBP with PID 2074 (started by wannengqingnian in /Users/wannengqingnian/MyCode/sb01)
+2019-05-29 21:30:55.015 DEBUG 2074 --- [main] com.sb.Sb01ApplicationTests              : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 21:30:55.016  INFO 2074 --- [main] com.sb.Sb01ApplicationTests              : No active profile set, falling back to default profiles: default
+2019-05-29 21:30:56.563  INFO 2074 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-29 21:30:56.888  INFO 2074 --- [main] com.sb.Sb01ApplicationTests              : Started Sb01ApplicationTests in 2.532 seconds (JVM running for 3.829)
+2019-05-29 21:30:57.438 TRACE 2074 --- [main] com.sb.Sb01ApplicationTests              : 这是trace信息
+2019-05-29 21:30:57.438 DEBUG 2074 --- [main] com.sb.Sb01ApplicationTests              : 这是debug信息
+2019-05-29 21:30:57.439  INFO 2074 --- [main] com.sb.Sb01ApplicationTests              : 这是info信息
+2019-05-29 21:30:57.439  WARN 2074 --- [main] com.sb.Sb01ApplicationTests              : 这是warn信息
+2019-05-29 21:30:57.439 ERROR 2074 --- [main] com.sb.Sb01ApplicationTests              : 这是error信息
+2019-05-29 21:30:57.450  INFO 2074 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-29 21:33:41.301  INFO 2079 --- [main] com.sb.Sb01ApplicationTests              : Starting Sb01ApplicationTests on wannengiandeMBP with PID 2079 (started by wannengqingnian in /Users/wannengqingnian/MyCode/sb01)
+2019-05-29 21:33:41.302 DEBUG 2079 --- [main] com.sb.Sb01ApplicationTests              : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 21:33:41.303  INFO 2079 --- [main] com.sb.Sb01ApplicationTests              : No active profile set, falling back to default profiles: default
+2019-05-29 21:33:43.229  INFO 2079 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-29 21:33:43.525  INFO 2079 --- [main] com.sb.Sb01ApplicationTests              : Started Sb01ApplicationTests in 3.322 seconds (JVM running for 4.577)
+2019-05-29 21:33:43.840 TRACE 2079 --- [main] com.sb.Sb01ApplicationTests              : 这是trace信息
+2019-05-29 21:33:43.840 DEBUG 2079 --- [main] com.sb.Sb01ApplicationTests              : 这是debug信息
+2019-05-29 21:33:43.840  INFO 2079 --- [main] com.sb.Sb01ApplicationTests              : 这是info信息
+2019-05-29 21:33:43.840  WARN 2079 --- [main] com.sb.Sb01ApplicationTests              : 这是warn信息
+2019-05-29 21:33:43.841 ERROR 2079 --- [main] com.sb.Sb01ApplicationTests              : 这是error信息
+2019-05-29 21:33:43.846  INFO 2079 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

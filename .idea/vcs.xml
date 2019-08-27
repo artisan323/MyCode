@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/GitTest/src/test1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GitTest/src/test2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NetworkDiskSharing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/单例模式" vcs="Git" />
+  </component>
+</project>

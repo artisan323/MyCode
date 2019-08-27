@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7d0b0724-f1cc-49b4-8be8-74480229cc9a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PBKGWgp7WvW3NlGebYanAJjriB" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MyThreadPoolDemo">
+    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.artisan.tools.CountDownLatchDemo" />
+      <module name="TestJUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.artisan.tools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.artisan.pool.MyThreadPoolDemo" />
+      <module name="TestJUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.artisan.pool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProAndCus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.artisan.juc.ProAndCus" />
+      <module name="TestJUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.artisan.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdConsumBlockQuequDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.artisan.block.ProdConsumBlockQuequDemo" />
+      <module name="TestJUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.artisan.block.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentranReadWriteLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.artisan.lock.ReentranReadWriteLockDemo" />
+      <module name="TestJUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.artisan.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyThreadPoolDemo" />
+        <item itemvalue="Application.ProAndCus" />
+        <item itemvalue="Application.ProdConsumBlockQuequDemo" />
+        <item itemvalue="Application.CountDownLatchDemo" />
+        <item itemvalue="Application.ReentranReadWriteLockDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d0b0724-f1cc-49b4-8be8-74480229cc9a" name="Default Changelist" comment="" />
+      <created>1565341953368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565341953368</updated>
+      <workItem from="1565341954799" duration="1432000" />
+      <workItem from="1565348151653" duration="27000" />
+      <workItem from="1565348307725" duration="339000" />
+      <workItem from="1565348719579" duration="182000" />
+      <workItem from="1565349719464" duration="1499000" />
+      <workItem from="1565419281147" duration="5569000" />
+      <workItem from="1565505157093" duration="3398000" />
+      <workItem from="1565573669809" duration="663000" />
+      <workItem from="1565592979907" duration="1112000" />
+      <workItem from="1566264682699" duration="7034000" />
+      <workItem from="1566356150647" duration="624000" />
+      <workItem from="1566367178266" duration="8000" />
+      <workItem from="1566367433096" duration="1533000" />
+      <workItem from="1566369860218" duration="4685000" />
+      <workItem from="1566434649839" duration="3081000" />
+      <workItem from="1566460425553" duration="2390000" />
+      <workItem from="1566723984120" duration="100000" />
+      <workItem from="1566876077871" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
